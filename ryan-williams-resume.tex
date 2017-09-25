@@ -8,6 +8,7 @@
 \usepackage{palatino}
 \usepackage{tabularx}
 \usepackage{setspace}
+\usepackage{hyperref}
 \fontfamily{SansSerif}
 \selectfont
 
@@ -70,8 +71,8 @@
 \begin{minipage}[t]{7cm}
 \begin{flushleft}
 \large{Ryan Williams} \\
-\indent\textbf{RyanWilliams@Berkeley.edu} \\
-\indent\textbf{https://github.com/rydub}\\
+\indent \textbf{ryanwilliams@berkeley.edu} \\
+\indent \url{https://github.com/rydub}\\
 \end{flushleft}
 \end{minipage}
 \hfill
@@ -79,7 +80,7 @@
 \begin{flushright}
 \large \indent 1745 Bancroft Way \\
 \indent Berkeley, CA 94703 \\
-\indent Mobile: \textbf{(860)309-8602} \\[\lsep]
+\indent \textbf{(860) 309-8602} \\[\lsep]
 \end{flushright}
 \end{minipage}
 \\[0.2cm]
@@ -91,10 +92,10 @@
 \\[-0.5cm]
 \begin{itemize}
 \item 
-\workexp{UC Berkeley---- 3.5 GPA}{Electrical Engineering \& Computer Science}{Aug. 2016 - Present}{}
+\workexp{UC Berkeley---- 3.4 GPA}{Electrical Engineering \& Computer Science}{Aug. 2016 - Present}{}
 \\[-0.3cm]
 	\begin{itemize}\itemsep \isep
-	\item Selected coursework: Data Structures(Java), Programming Paradigms(Python, Scheme, SQL), Discrete Math \& Probability Theory, Designing Information Devices and Systems (Linear modeling, signals, control, circuit design).
+	\item Selected coursework: Embedded Systems Design, Signals \& Systems, Data Structures, Discrete Math \& Probability Theory, Machine Structures.
 	\end{itemize}
 \end{itemize}
 \begin{itemize}
@@ -102,8 +103,7 @@
 \workexp{Santa Barbara City College---- 4.0 GPA}{Engineering Transfer}{Aug. 2013 - May 2016}{}
 \\[-0.3cm]
 	\begin{itemize}\itemsep \isep
-	\item Recipient of SBCC Foundation President's Scholarship, the school's highest honor.
-	\item Member of Computer Engineering Club, PTK Honor Society, Student Leaders in Science.
+	\item Received SBCC Foundation President's Scholarship. Member, Computer Engineering Club.
 	\end{itemize}
 \end{itemize}
 
@@ -117,35 +117,44 @@
 \\[-0.5cm]
 \begin{itemize}
 \item 
+\workexp{Summer Associate}{NASA Ames Research Center, Mtn View CA}{May 2017 - Present}{}
+\\[-0.3cm]
+	\begin{itemize}\itemsep \isep
+	\item Electronics engineer and researcher working on free space optical communication protocol.
+	\item Co-author of NASA invention disclosure and forthcoming technical paper. Designed graphics, and technology demonstration for grant proposals and annual reports.
+	\item Develops MATLAB and Python scripts for serial communication (RS-232), waveform generation, and signal processing
+	\item Manages set-up, execution, and data processing for optics experiments. Trained in laser safety and conducting experiments that include amplitude and wave-front analysis on red and IR reflections. 
+	\item Qualified and adapted existing drive electronics for use with MEMS adaptive optics device.
+	
+	\end{itemize}
+	
+\item 
 \workexp{Mathematics Tutor}{SBCC, Santa Barbara CA}{Aug. 2014 - July 2016}{}
 \\[-0.3cm]
 	\begin{itemize}\itemsep \isep
-	\item Drop-in tutor for Advanced Math Lab (all levels). Saw anywhere from 5-50 students per day.
-	\item Gateway tutor for Algebra, Calculus, Linear Algebra. Hosted 1-2 hour private and group sessions. Also gave lessons, review sessions, and supplemental problem sets.
+	\item Drop-in tutor for Advanced Math Lab (all levels), saw 5-50 students per day.
+	\item Gateway tutor for Algebra, Calculus, and Linear Algebra. Hosted 1-2 hour private and group sessions. Gave lessons, review sessions, and supplemental problem sets.
 	\item Functioned as TA through in-class tutoring, contribution to lectures, and exam consultations.
-	\item Developed problem solving worksheets and heuristics for students.
-	\item Mentored new tutors through consultation and workshops.
+	\item Mentored new tutors through consultation and workshops and developed problem solving worksheets and heuristics for students.
 	\end{itemize}
 
 \item
 \workexp{PCB Layout Engineer}{Green Light Props, Santa Barbara CA}{Feb. 2014 - June 2015}{}
 \\[-0.3cm]
 	\begin{itemize}\itemsep \isep
-	\item Company that designed and manufactured smart LED dance props.
-	\item Designed PCB with an ARM based chip using an 802.15.4 radio, accelerometer, LED driver, and USB charging system.
-	\item Developed schematics and layouts for two-layer high speed PCBs
-	\item Maintained documentation of PCB layout and fabrication
-	\item Implemented layouts in coordination with manufacturers and suppliers
-	\item Ensured layout design compliance with manufacturing requirements
-	\item Performed regular system checks and tests.
+	\item Company to develop smart LED dance props.
+	\item Designed PCB with an ARM-based chip using an 802.15.4 radio, 3-axis accelerometer, LED driver, and USB charging system.
+	\item Developed schematics and layouts for two-layer high speed PCBs, Implemented layouts in coordination with manufacturers and suppliers, Ensured layout design compliance with manufacturing requirements.
+	\item Maintained documentation of PCB layout and fabrication and performed system checks and tests.
 	\end{itemize}
 \item
-\workexp{Co-Owner}{Lucidity Festivals LLC}{Jan. 2012 - Present}{}
+\workexp{Co-Owner}{Lucidity Festivals LLC, Santa Barbara CA}{Jan. 2012 - Present}{}
 \\[-0.3cm]
 	\begin{itemize}\itemsep \isep
-	\item Founding and development of worker-owned event production company.
-	\item Served as Dept. Manager; pioneered decision-making processes, director elections, maintained operating agreement, authored orientation materials and procedure handbook.
-	\item Holds ongoing role of Fire Safety Coordinator for annual 5000 person festival. Liaison with County Fire Dept., author relevant permits, develops deployment and inventory management plans, manages budgets and personnel.
+	\item Partner in worker-owned event production company.
+	\item Pioneered group decision-making processes, maintained operating agreement, authored orientation materials and procedure handbook.
+	\item Holds ongoing roles for annual 5000 person festival. Liaison with County Fire Dept., author of relevant permits.
+	\item Responsibilities include material and personnel deployment, inventory management, and  budgeting.
 	\end{itemize}
 \end{itemize}
 %-----------------------------------------------------------
@@ -155,21 +164,21 @@
 \resheading{\textbf{Technical Skills} }\\[\lsep]
 \begin{itemize}
 %these will all be on the same line, include a whitespace at the end of each list
-\item \noindent \textbf{Languages} (C++, Java, Python)  
-\textbf{Tools} (Latex, git, EAGLE CAD, MATLAB, Maple, SPICE) 
+\noindent \textbf{Languages:} (Java, C/C++, Python, SQL, MIPS)
+\textbf{Tools:} (git, Unix, CAD, MATLAB, LabVIEW)
 \end{itemize} 
 %-----------------------------------------------------------
 
 
 %------Other Interests------------------------------------
 
-\resheading{\textbf{Other Interests} }\\[\lsep]
-\\[0.2cm]
-\indent \begin{tabular}{  l  r   r } 
-\indent Music; classical, folk; Guitar, Mandolin & \indent  & \indent \indent Oct. 1999\\
-\indent Fire Dance and Juggling Teacher/Performer & \indent https://youtube.com/rydubbin  & \indent  \indent April 2011\\
-\indent Rock Climber & \indent  & \indent \indent Dec. 2015\\
-\end{tabular}
+%\resheading{\textbf{Other Interests} }\\[\lsep]
+%\\[0.2cm]
+%\indent \begin{tabular}{  l  r   r } 
+%\indent Music; classical, folk; guitar, mandolin & \indent  & \indent \indent Oct. 1999\\
+%\indent Fire dance and juggling teacher/performer: & \indent https://youtube.com/rydubbin  & \indent  \indent Nov. 2009\\
+%\indent Rock climber, hiker, and outdoorsman & \indent  & \indent \indent Dec. 2015\\
+%\end{tabular}
 
 
 
